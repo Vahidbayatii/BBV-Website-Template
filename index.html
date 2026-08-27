@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBV Crypto Template — Premium Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap');
+        * { font-family: 'Inter', sans-serif; }
+        .orbitron { font-family: 'Orbitron', sans-serif; }
+        .gold-grad { background: linear-gradient(135deg, #FFD700, #FFA500, #FF8C00); }
+        .gold-text { background: linear-gradient(135deg, #FFD700, #FFA500); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .dark-card { background: rgba(17,24,39,0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,215,0,0.15); }
+        .glow { box-shadow: 0 0 30px rgba(255,215,0,0.15); }
+        .grid-bg { background-image: radial-gradient(rgba(255,215,0,0.1) 1px, transparent 1px); background-size: 40px 40px; }
+    </style>
+</head>
+<body class="bg-gray-950 text-white grid-bg">
+    <nav class="fixed top-0 w-full z-50 dark-card border-b border-yellow-500/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 gold-grad rounded-lg flex items-center justify-center font-bold text-gray-900 orbitron text-lg">BBV</div>
+                <span class="orbitron text-xl gold-text font-bold">BBV</span>
+            </div>
+            <div class="flex gap-4">
+                <a href="#features" class="text-gray-300 hover:text-yellow-400 transition">Features</a>
+                <a href="#pricing" class="text-gray-300 hover:text-yellow-400 transition">Pricing</a>
+                <a href="#buy" class="bg-yellow-500 text-gray-900 px-5 py-2 rounded-lg font-bold hover:bg-yellow-400 transition">Buy Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-6xl md:text-8xl orbitron font-bold gold-text mb-6">BBV<br><span class="text-white">Premium Template</span></h1>
+            <p class="text-xl text-gray-400 mb-8">Professional Crypto Landing Page — Fully Responsive, Dark Theme, Ready-to-Deploy</p>
+            <div class="flex justify-center gap-4 flex-wrap">
+                <a href="#pricing" class="gold-grad text-gray-900 px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-all">Buy — $99</a>
+                <a href="#demo" class="border border-yellow-500/30 text-yellow-400 px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-500/10 transition">Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl orbitron font-bold text-center mb-16">🔥 <span class="gold-text">Features</span></h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="dark-card p-8 rounded-2xl glow">
+                    <div class="text-4xl mb-4">🎨</div>
+                    <h3 class="text-xl font-bold mb-3">Premium Design</h3>
+                    <p class="text-gray-400">Dark theme, gold accents, smooth animations, fully responsive on all devices.</p>
+                </div>
+                <div class="dark-card p-8 rounded-2xl glow">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-3">One-Click Deploy</h3>
+                    <p class="text-gray-400">Deploy to GitHub Pages, Vercel, or Netlify in 2 minutes. Zero config needed.</p>
+                </div>
+                <div class="dark-card p-8 rounded-2xl glow">
+                    <div class="text-4xl mb-4">🔗</div>
+                    <h3 class="text-xl font-bold mb-3">Web3 Ready</h3>
+                    <p class="text-gray-400">Wallet connect, token display, price charts — all built-in components.</p>
+                </div>
+                <div class="dark-card p-8 rounded-2xl glow">
+                    <div class="text-4xl mb-4">📊</div>
+                    <h3 class="text-xl font-bold mb-3">Token Dashboard</h3>
+                    <p class="text-gray-400">Live price, market cap, holders chart, transaction history widgets.</p>
+                </div>
+                <div class="dark-card p-8 rounded-2xl glow">
+                    <div class="text-4xl mb-4">🛡️</div>
+                    <h3 class="text-xl font-bold mb-3">Security Audit</h3>
+                    <p class="text-gray-400">Includes contract audit badges, trust indicators, and security seals.</p>
+                </div>
+                <div class="dark-card p-8 rounded-2xl glow">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="text-xl font-bold mb-3">Bot Integration</h3>
+                    <p class="text-gray-400">Telegram bot widget, live support chat, automated notifications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-20 px-6 bg-gray-900/50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl orbitron font-bold mb-6">💎 <span class="gold-text">Pricing</span></h2>
+            <div class="grid md:grid-cols-3 gap-6 mt-12">
+                <div class="dark-card p-8 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">Basic</h3>
+                    <p class="text-4xl font-bold gold-text mb-4">$49</p>
+                    <ul class="text-gray-400 space-y-2 mb-6">
+                        <li>✅ HTML Template</li>
+                        <li>✅ Responsive Design</li>
+                        <li>✅ Documentation</li>
+                        <li>❌ Components</li>
+                        <li>❌ Support</li>
+                    </ul>
+                    <a href="#" class="block w-full gold-grad text-gray-900 py-3 rounded-xl font-bold">Buy Basic</a>
+                </div>
+                <div class="dark-card p-8 rounded-2xl glow border-yellow-500/30 scale-105">
+                    <div class="text-yellow-400 text-sm font-bold mb-2">🔥 POPULAR</div>
+                    <h3 class="text-xl font-bold mb-2">Premium</h3>
+                    <p class="text-4xl font-bold gold-text mb-4">$99</p>
+                    <ul class="text-gray-400 space-y-2 mb-6">
+                        <li>✅ All Basic Features</li>
+                        <li>✅ All Components</li>
+                        <li>✅ Web3 Integration</li>
+                        <li>✅ 24/7 Support</li>
+                        <li>✅ Lifetime Updates</li>
+                    </ul>
+                    <a href="#" class="block w-full gold-grad text-gray-900 py-3 rounded-xl font-bold">Buy Premium</a>
+                </div>
+                <div class="dark-card p-8 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">Enterprise</h3>
+                    <p class="text-4xl font-bold gold-text mb-4">$299</p>
+                    <ul class="text-gray-400 space-y-2 mb-6">
+                        <li>✅ Premium Features</li>
+                        <li>✅ Custom Branding</li>
+                        <li>✅ Smart Contract</li>
+                        <li>✅ Dedicated Support</li>
+                        <li>✅ Source Code</li>
+                    </ul>
+                    <a href="#" class="block w-full gold-grad text-gray-900 py-3 rounded-xl font-bold">Buy Enterprise</a>
+                </div>
+            </div>
+            <p class="text-gray-500 mt-8">💳 Accepting: USDT, ETH, BTC, BNB — <a href="#" class="text-yellow-400">Contact for custom payment</a></p>
+        </div>
+    </section>
+
+    <section id="buy" class="py-20 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl orbitron font-bold mb-6">🛒 <span class="gold-text">Buy Now</span></h2>
+            <p class="text-gray-400 mb-8">Send crypto to any address below and email the transaction hash to get your template instantly.</p>
+            <div class="dark-card p-8 rounded-2xl text-left space-y-4">
+                <div><span class="text-yellow-400 font-bold">USDT (ERC20):</span><br><code class="text-sm text-gray-300 break-all">0xb06B2dAfD41f83F032375A03C33C09c8d3D9A77c</code></div>
+                <div><span class="text-yellow-400 font-bold">ETH:</span><br><code class="text-sm text-gray-300 break-all">0xb06B2dAfD41f83F032375A03C33C09c8d3D9A77c</code></div>
+                <div><span class="text-yellow-400 font-bold">BNB (BSC):</span><br><code class="text-sm text-gray-300 break-all">0xb06B2dAfD41f83F032375A03C33C09c8d3D9A77c</code></div>
+                <div><span class="text-yellow-400 font-bold">BTC:</span><br><code class="text-sm text-gray-300 break-all">bc1q4kaf55sd3hs8cdpv33whe0xkdveyv5wfv9pxlv</code></div>
+            </div>
+            <p class="mt-6 text-gray-400">📧 Send proof to: <span class="text-yellow-400">sssvahidbayat@gmail.com</span></p>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-yellow-500/10 text-center text-gray-500">
+        <p>© 2026 BBV Template. Built by <span class="text-yellow-400">@bboyvahid1989</span></p>
+    </footer>
+</body>
+</html>
